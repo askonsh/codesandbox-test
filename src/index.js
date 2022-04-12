@@ -171,3 +171,5 @@ console.log(arr4);
 // arr8[0]=100;
 // console.log(arr8);
 // console.log(arr4);
+
+console.clear();
