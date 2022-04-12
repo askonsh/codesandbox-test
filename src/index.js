@@ -97,3 +97,31 @@ const func4 = (num1, num2) => {
   return num1 + num2;
 };
 console.log(func4(10, 20));
+
+const func5 = (num1, num2) => num1 + num2;
+console.log(func5(20, 20));
+
+/**
+ * 分割代入
+ */
+
+// const myProfile = {
+//   name2: "ああああ",
+//   age2: 28
+// };
+
+// const message3 = `名前は${myProfile.name2}です。年齢は${myProfile.age2}です`;
+// console.log(message3);
+
+// const { name2, age2 } = myProfile;
+// const message4 = `名前は${name2}です。年齢は${age2}です`;
+// console.log(message4);
+
+const myProfile = ["aaa", 28];
+const message5 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です。`;
+console.log(message5);
+
+// 配列の場合は順番で受け取る
+const [name3, age3] = myProfile;
+const message6 = `名前は${name3}です。年齢は${age3}です`;
+console.log(message6);
